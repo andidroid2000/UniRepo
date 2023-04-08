@@ -1,0 +1,31 @@
+# 1.6 c)
+#
+Sigma:
+	0
+	1
+End
+#
+#
+#
+States:
+	S, S
+	A
+	B
+	C, F
+	D
+End
+#
+#
+#
+Transitions:
+	S, 0, A
+	S, 1, A
+	A, 0, B
+	A, 1, B
+	B, 0, C
+	B, 1, D
+	C, 0, C
+	C, 1, C
+	D, 0, D
+	D, 1, D
+End
